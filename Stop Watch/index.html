@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <title>Document</title>
+   </head>
+   <body class="bg-dark">
+      <div class="container d-grid">
+         <div class="head m-auto">
+            <h1>Stop watch</h1>
+         </div>
+         <div class="body d-grid"> 
+             <!-- watch time show -->
+            <div class="watch m-auto">
+               <button id="hour" class="bg-dark fs-1">00</button><span>:</span>
+               <button id="minute" class="bg-dark fs-1">00</button><span>:</span>
+               <button id="second" class="bg-dark fs-1">00</button>
+               <audio src="./assets/sound/last 2.mp3"></audio>
+            </div>
+            <!-- watch control button -->
+            <div class="control m-auto">
+               <button id="start" class=" bg-dark  fs-3">Start</button>
+               <button id="stop" class="bg-dark fs-3" >Stop</button>
+               <button id="reset" class="bg-dark fs-3">Reset</button>
+            </div>
+         </div>
+      </div>
+      <script src="./assets/js/app.js"></script>
+      <script src="./assets/js/bootstrap.bundle.min.js"></script>
+   </body>
+</html>

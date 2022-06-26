@@ -1,0 +1,41 @@
+/* head div style */
+.head {
+	text-transform: uppercase;
+	color: white;
+	margin-top: 60px !important;
+}
+
+/* watch div style */
+.watch {
+	padding: 20px;
+	color: white;
+}
+
+/* watch button style */
+.watch button {
+	border: none;
+	color: white;
+}
+
+
+/* control button style */
+.control button {
+	padding: 5px 30px;
+	color: white;
+	margin: 5px;
+	border-radius: 5px;
+	border: .1px solid white;
+}
+
+/* control button hover effect  */
+.control button:hover {
+	background-color: white !important;
+	color: black;
+    
+}
+
+/* style span tag */
+span {
+	font-weight: 600;
+	font-size: 35px;
+}
